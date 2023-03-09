@@ -53,7 +53,7 @@ The top level element.
 |   mode  |   string       |   Can be either "normal" or "preparation". If "preparation" then graphs will be built and the service will be shut down afterwards.    | `"normal"`  |
 |   description  |   string       |      | `"This is a routing file from openrouteservice"` |
 |   routing_name  |   string       |   Specifies the gpx `name` tag that is returned in a gpx response   | `"openrouteservice"` |
-|   sources  |   list       |  the osm file to be used, formats supported are `.osm`, `.osm.gz`, `.osm.zip` and `.pbf`    | `["heidelberg.osm.gz"]` |
+|   sources  |   list       |  the osm file to be used, formats supported are `.osm`, `.osm.gz`, `.osm.zip` and `.pbf`    | `["malaysia-singapore-brunei-latest.osm.pbf"]` |
 |   init_threads  |    number     |  The number of threads used to initialize (build/load) graphs. Higher numbers requires more RAM.   | `2` |
 |   attribution  |    string     |     | `"openrouteservice.org, OpenStreetMap contributors"` |
 |   elevation_preprocessed  |   boolean       |   Enables or disables reading ele tags for nodes. Default value is false. If enabled, GH's elevation lookup is prevented and all nodes without ele tag will default to 0. Experimental, for use with the ORS preprocessor | `false` |

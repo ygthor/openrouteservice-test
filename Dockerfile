@@ -65,7 +65,7 @@ FROM adoptopenjdk/openjdk11:jre-11.0.18_10-alpine as publish
 # Build ARGS
 ARG UID=1000
 ARG GID=1000
-ARG OSM_FILE=./openrouteservice/src/main/files/heidelberg.osm.gz
+ARG OSM_FILE=./openrouteservice/src/main/files/malaysia-singapore-brunei-latest.osm.pbf
 ARG BASE_FOLDER=/home/ors
 
 # Runtime ENVs for tomcat

@@ -11,7 +11,7 @@ when you have checked you have done them): -->
 - [ ] 6. I have created API tests for any new functionality exposed to the API.
 - [ ] 7. If changes/additions are made to the ors-config.json file, I have added these to the [ors config documentation][config]
          along with a short description of what it is for, and documented this in the Pull Request (below).
-- [ ] 8. I have built graphs with my code of the Heidelberg.osm.gz file and run the api-tests with all test passing
+- [ ] 8. I have built graphs with my code of the malaysia-singapore-brunei-latest.osm.pbf file and run the api-tests with all test passing
 - [ ] 9. I have referenced the Issue Number in the Pull Request (if the changes were from an issue).
 - [ ] 10. For new features or changes involving building of graphs, I have tested on a larger dataset
           (at least Germany), and the graphs build without problems (i.e. no out-of-memory errors).

@@ -85,7 +85,7 @@
         "routing_description": "This is a routing file from openrouteservice",
         "routing_name": "openrouteservice routing",
         "sources": [
-          "openrouteservice/src/main/files/heidelberg.osm.gz"
+          "openrouteservice/src/main/files/malaysia-singapore-brunei-latest.osm.pbf"
         ],
         "init_threads": 2,
         "attribution": "openrouteservice.org, OpenStreetMap contributors",

@@ -82,7 +82,7 @@ Specify either during container startup or in `docker-compose.yml`.
 When building the image, the following arguments are customizable:
 
 - `ORS_CONFIG`: Can be changed to specify the location of a custom `ors-config.json` file. Default `./openrouteservice/src/main/resources/ors-config-sample.json`.
-- `OSM_FILE`: Can be changed to point to a local custom OSM file. Default `./openrouteservice/src/main/files/heidelberg.osm.gz`.
+- `OSM_FILE`: Can be changed to point to a local custom OSM file. Default `./openrouteservice/src/main/files/malaysia-singapore-brunei-latest.osm.pbf`.
 
 ## Customization
 
